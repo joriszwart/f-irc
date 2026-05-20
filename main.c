@@ -163,7 +163,7 @@ void update_input_buffer()
 	reposition_editline_cursor();
 }
 
-void edit_line_keypress(c)
+void edit_line_keypress(int c)
 {
 	if (c == KEY_LEFT)
 	{

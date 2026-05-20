@@ -52,7 +52,6 @@ NEWWIN *chat_window = NULL, *input_window = NULL, *channel_window = NULL, *topic
 visible_channels *vc_list = NULL;
 server *server_list = NULL;
 int n_servers = 0;
-layout_theme theme;
 int input_window_width = 40;
 char *time_str_fmt = "%T";
 

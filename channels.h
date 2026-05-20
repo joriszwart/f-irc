@@ -5,6 +5,7 @@
 #ifndef __CHANNELS_H__
 #define __CHANNELS_H__
 
+#include <sys/types.h>
 #include "utf8.h"
 #include "term.h"
 #include "buffer.h"
